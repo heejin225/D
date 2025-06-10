@@ -12,7 +12,7 @@ locations = {
     "로테르담 🏙️": {
         "위치": [51.9225, 4.47917],
         "설명": "현대 건축의 끝판왕! 🏗️ 큐브 하우스, 마르크탈은 꼭 봐야 해요 🧀",
-        "이미지": "https://www.google.com/url?sa=i&url=https%3A%2F%2Ftheuhak.com%2Fholland-infom%2F%3Fbmode%3Dview%26idx%3D1786651&psig=AOvVaw0zHaOzsOwbpyh-K0y5Xp9-&ust=1749633411451000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCICu88LC5o0DFQAAAAAdAAAAABAE"
+        "이미지": "https://cdn.imweb.me/thumbnail/20190412/5cb040737116a.jpeg"
     },
     "킨더다이크 🌬️": {
         "위치": [51.8833, 4.6333],
