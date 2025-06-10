@@ -165,7 +165,6 @@ if not filtered_df.empty:
                        markers=True,
                        title='연도별 과목별 응시 인원 추이',
                        labels={'응시인원': '응시 인원 (명)', '학년도': '수능 학년도'})
-                       color_discrete_sequence=colors)
     fig_line.update_layout(hovermode="x unified")
     st.plotly_chart(fig_line, use_container_width=True)
 
