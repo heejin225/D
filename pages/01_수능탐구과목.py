@@ -120,6 +120,8 @@ def load_data():
 
 df = load_data()
 
+colors = px.colors.qualitative.Dark24
+
 # --- Streamlit 앱 시작 ---
 st.set_page_config(layout="wide")
 st.title('수능 탐구 과목 분석 대시보드 📊')
