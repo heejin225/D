@@ -6,54 +6,33 @@ from streamlit_folium import st_folium
 locations = {
     "암스테르담 🛶": {
         "위치": [52.3676, 4.9041],
-        "설명": "운하와 자전거 천국인 네덜란드 수도예요! 🚴‍♀️\n반 고흐 미술관, 안네 프랑크의 집은 필수 방문 🎨",
-        "이미지": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcREk6tXJ5m7RFvUOfZZRFuCmrt8wDQcvHgSPOJLBVvZ8P3Ghfzy-GCJxzdtu3tYgrvboblgqvSzyz7xLT5XpvsrWCuFMlfONAazoY-Euw"
+        "설명": "운하와 자전거 천국인 네덜란드 수도예요! 🚴‍♀️반 고흐 미술관, 안네 프랑크의 집은 필수 방문 🎨",
+        "이미지": "https://d2mgzmtdeipcjp.cloudfront.net/files/good/2024/10/10/17285308469954.jpg"
     },
     "로테르담 🏙️": {
         "위치": [51.9225, 4.47917],
         "설명": "현대 건축의 끝판왕! 🏗️ 큐브 하우스, 마르크탈은 꼭 봐야 해요 🧀",
-        "이미지": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Rotterdam_Skyline.jpg"
+        "이미지": "https://www.google.com/url?sa=i&url=https%3A%2F%2Ftheuhak.com%2Fholland-infom%2F%3Fbmode%3Dview%26idx%3D1786651&psig=AOvVaw0zHaOzsOwbpyh-K0y5Xp9-&ust=1749633411451000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCICu88LC5o0DFQAAAAAdAAAAABAE"
     },
     "킨더다이크 🌬️": {
         "위치": [51.8833, 4.6333],
         "설명": "전통 풍차가 가득한 동화 같은 마을! 🌾 UNESCO 세계유산이기도 해요 🌍",
-        "이미지": "https://upload.wikimedia.org/wikipedia/commons/0/00/Kinder1.JPG"
+        "이미지": "https://img.freepik.com/premium-photo/windmills-kinderdijk-holland-netherlands_163782-7155.jpg"
     },
     "델프트 🏺": {
         "위치": [52.0116, 4.3571],
-        "설명": "도자기와 요한 페르메르의 도시 🎨\n운하와 고풍스런 거리 풍경이 아름다워요 🏘️",
-        "이미지": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Delft_view.jpg"
+        "설명": "도자기와 요한 페르메르의 도시 🎨 운하와 고풍스런 거리 풍경이 아름다워요 🏘️",
+        "이미지": "https://d3b39vpyptsv01.cloudfront.net/photo/1/2/bf4e65182175c1beabda099c11888504.jpg"
     },
     "위트레흐트 ⛪": {
         "위치": [52.0907, 5.1214],
-        "설명": "중세 느낌 물씬 나는 대학교 도시 🎓\n돔 타워 꼭 올라가보세요! 🏰",
-        "이미지": "https://upload.wikimedia.org/wikipedia/commons/5/58/Utrecht_Oudegracht.jpg"
+        "설명": "중세 느낌 물씬 나는 대학교 도시 🎓 돔 타워 꼭 올라가보세요! 🏰",
+        "이미지": "https://d3b39vpyptsv01.cloudfront.net/photo/1/2/973fe7ff8817d3db52588a866ce9581a.jpg"
     },
-    # 해변들
     "스헤베닝겐 🌊": {
         "위치": [52.1115, 4.2843],
-        "설명": "가장 인기 많은 해변이에요! 🎡 부두 걷고, 해산물 먹고, 노을 지는 바다 꼭 보세요 🌅",
-        "이미지": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Scheveningen_Pier%2C_The_Hague.jpg"
-    },
-    "잔드보르트 안 제이 🏖️": {
-        "위치": [52.3740, 4.5332],
-        "설명": "암스테르담에서 30분! 🚆 활기차고 젊은 분위기의 해변 🎶",
-        "이미지": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Zandvoort_beach_view.jpg"
-    },
-    "에그몬트 안 제이 🐚": {
-        "위치": [52.6183, 4.6201],
-        "설명": "조용하고 아기자기한 가족형 해변 마을 🧸",
-        "이미지": "https://upload.wikimedia.org/wikipedia/commons/5/54/Egmond_aan_Zee_beach.jpg"
-    },
-    "노르트베이크 🌺": {
-        "위치": [52.2393, 4.4339],
-        "설명": "고급 리조트 스타일의 도시 🛎️ 우주 박물관과 꽃길도 있어요! 🚀🌷",
-        "이미지": "https://upload.wikimedia.org/wikipedia/commons/3/3e/North_Sea_Coast_at_Noordwijk.jpg"
-    },
-    "텍셀 섬 🐑": {
-        "위치": [53.0565, 4.8040],
-        "설명": "양과 맥주가 유명한 자연 천국 🐑🍺자전거 타고 섬 한 바퀴 돌아보세요 🚲",
-        "이미지": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Texel_Beach.jpg"
+        "설명": "🎡 부두 걷고, 해산물 먹고, 노을 지는 바다 꼭 보세요 🌅",
+        "이미지": "https://mediaim.expedia.com/destination/1/7a8dffe86334c582e5ea0ba2f8856b42.jpg"
     }
 }
 
