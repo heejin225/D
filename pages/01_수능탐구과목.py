@@ -169,7 +169,7 @@ if selected_domain != '전체':
 selected_subjects = st.sidebar.multiselect(
     '과목 선택',
     sorted(filtered_df['과목명'].unique()),
-    default=sorted(filtered_df['과목명'].unique()) # 모든 과목을 기본 선택으로 설
+    default=sorted(filtered_df['과목명'].unique()) # 모든 과목을 기본 선택으로 설정
 )
 filtered_df = filtered_df[filtered_df['과목명'].isin(selected_subjects)]
 
@@ -184,7 +184,8 @@ if not filtered_df.empty:
                        color='과목명',
                        markers=True,
                        title='연도별 과목별 응시 인원 추이',
-                       labels={'응시인원': '응시 인원 (명)', '학년도': '수능 학년도'})
+                       labels={'응시인원': '응시 인원 (명)', '학년도': '수능 학년도'},
+                       color_discrete_map=custom_colors)
     fig_line.update_layout(hovermode="x unified")
     st.plotly_chart(fig_line, use_container_width=True)
 
@@ -208,7 +209,8 @@ if not filtered_df.empty:
                           color='과목명',
                           markers=True,
                           title='연도별 과목별 1등급 컷 (원점수) 추이',
-                          labels={'1등급_컷_원점수': '1등급 컷 원점수 (점)'})
+                          labels={'1등급_컷_원점수': '1등급 컷 원점수 (점)'},
+                          color_discrete_map=custom_colors)
     fig_cut_raw.update_layout(hovermode="x unified")
     st.plotly_chart(fig_cut_raw, use_container_width=True)
 else:
@@ -222,7 +224,8 @@ if not filtered_df.empty:
                           color='과목명',
                           markers=True,
                           title='연도별 과목별 만점 표준점수 추이',
-                          labels={'만점_표준점수': '만점 표준점수 (점)'})
+                          labels={'만점_표준점수': '만점 표준점수 (점)'},
+                          color_discrete_map=custom_colors)
     fig_cut_std.update_layout(hovermode="x unified")
     st.plotly_chart(fig_cut_std, use_container_width=True)
 else:
