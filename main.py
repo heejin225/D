@@ -7,7 +7,7 @@ locations = {
     "암스테르담 🛶": {
         "위치": [52.3676, 4.9041],
         "설명": "운하와 자전거 천국인 네덜란드 수도예요! 🚴‍♀️\n반 고흐 미술관, 안네 프랑크의 집은 필수 방문 🎨",
-        "이미지": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcREk6tXJ5m7RFvUOfZZRFuCmrt8wDQcvHgSPOJLBVvZ8P3Ghfzy-GCJxzdtu3tYgrvboblgqvSzyz7xLT5XpvsrWCuFMlfONAazoY-Euw", "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrxvZgLzQqwyf9ZgG1yio3pY-WhspA2QVfajLq_7v-Q1FI2xDMlm1bYGZo8LLoVyZUTddn2tVHzV7p2Cr4JeAm35-D5sc0-2SqhK9Ng1YiNlB6OCowHtEyLbgcUkWEGhwyUNMlhFA=w675-h390-n-k-no"
+        "이미지": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcREk6tXJ5m7RFvUOfZZRFuCmrt8wDQcvHgSPOJLBVvZ8P3Ghfzy-GCJxzdtu3tYgrvboblgqvSzyz7xLT5XpvsrWCuFMlfONAazoY-Euw"
     },
     "로테르담 🏙️": {
         "위치": [51.9225, 4.47917],
