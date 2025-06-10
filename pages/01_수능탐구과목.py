@@ -165,7 +165,9 @@ if not filtered_df.empty:
                        markers=True,
                        title='연도별 과목별 응시 인원 추이',
                        labels={'응시인원': '응시 인원 (명)', '학년도': '수능 학년도'})
+                       color_discrete_sequence=colors)
     fig_line.update_layout(hovermode="x unified")
+                       color_discrete_sequence=colors)
     st.plotly_chart(fig_line, use_container_width=True)
 
     fig_bar_select = px.bar(filtered_df.sort_values(by='선택률(%)', ascending=False),
@@ -175,6 +177,7 @@ if not filtered_df.empty:
                             barmode='group',
                             title='연도별 과목별 선택률 (전체 탐구 대비)',
                             labels={'선택률(%)': '선택률 (%)'})
+                            color_discrete_sequence=colors)
     st.plotly_chart(fig_bar_select, use_container_width=True)
 else:
     st.warning("선택된 조건에 해당하는 데이터가 없습니다. 필터를 조정해 주세요.")
