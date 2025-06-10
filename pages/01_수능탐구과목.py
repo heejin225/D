@@ -147,7 +147,7 @@ if selected_domain != '전체':
 selected_subjects = st.sidebar.multiselect(
     '과목 선택',
     sorted(filtered_df['과목명'].unique()),
-    default=sorted(filtered_df['과목명'].unique())[:5] # 기본 5개 과목 선택
+    default=sorted(filtered_df['과목명'].unique()) # 모든 과목을 기본 선택으로 설
 )
 filtered_df = filtered_df[filtered_df['과목명'].isin(selected_subjects)]
 
