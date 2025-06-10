@@ -7,7 +7,7 @@ locations = {
     "암스테르담 🛶": {
         "위치": [52.3676, 4.9041],
         "설명": "운하와 자전거 천국인 네덜란드 수도예요! 🚴‍♀️\n반 고흐 미술관, 안네 프랑크의 집은 필수 방문 🎨",
-        "이미지": "https://upload.wikimedia.org/wikipedia/commons/8/80/Amsterdam_-_Damrak.jpg"
+        "이미지": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcREk6tXJ5m7RFvUOfZZRFuCmrt8wDQcvHgSPOJLBVvZ8P3Ghfzy-GCJxzdtu3tYgrvboblgqvSzyz7xLT5XpvsrWCuFMlfONAazoY-Euw", "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrxvZgLzQqwyf9ZgG1yio3pY-WhspA2QVfajLq_7v-Q1FI2xDMlm1bYGZo8LLoVyZUTddn2tVHzV7p2Cr4JeAm35-D5sc0-2SqhK9Ng1YiNlB6OCowHtEyLbgcUkWEGhwyUNMlhFA=w675-h390-n-k-no"
     },
     "로테르담 🏙️": {
         "위치": [51.9225, 4.47917],
@@ -32,7 +32,7 @@ locations = {
     # 해변들
     "스헤베닝겐 🌊": {
         "위치": [52.1115, 4.2843],
-        "설명": "가장 인기 많은 해변이에요! 🎡\n부두 걷고, 해산물 먹고, 노을 지는 바다 꼭 보세요 🌅",
+        "설명": "가장 인기 많은 해변이에요! 🎡 부두 걷고, 해산물 먹고, 노을 지는 바다 꼭 보세요 🌅",
         "이미지": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Scheveningen_Pier%2C_The_Hague.jpg"
     },
     "잔드보르트 안 제이 🏖️": {
@@ -47,19 +47,19 @@ locations = {
     },
     "노르트베이크 🌺": {
         "위치": [52.2393, 4.4339],
-        "설명": "고급 리조트 스타일의 도시 🛎️\n우주 박물관과 꽃길도 있어요! 🚀🌷",
+        "설명": "고급 리조트 스타일의 도시 🛎️ 우주 박물관과 꽃길도 있어요! 🚀🌷",
         "이미지": "https://upload.wikimedia.org/wikipedia/commons/3/3e/North_Sea_Coast_at_Noordwijk.jpg"
     },
     "텍셀 섬 🐑": {
         "위치": [53.0565, 4.8040],
-        "설명": "양과 맥주가 유명한 자연 천국 🐑🍺\n자전거 타고 섬 한 바퀴 돌아보세요 🚲",
+        "설명": "양과 맥주가 유명한 자연 천국 🐑🍺자전거 타고 섬 한 바퀴 돌아보세요 🚲",
         "이미지": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Texel_Beach.jpg"
     }
 }
 
 st.set_page_config(page_title="🇳🇱 네덜란드 여행 가이드", layout="wide")
 st.title("📍 네덜란드 여행 가이드 🧳")
-st.markdown("풍차, 예술, 운하, 해변까지 완벽한 네덜란드 여행을 소개합니다! 🇳🇱")
+st.markdown("풍차, 예술, 운하, 해변까지 완벽한 네덜란드 여행을 소개합니다!🤗")
 
 # 지도 그리기
 st.subheader("🗺️ 지도에서 관광지와 해변 보기")
